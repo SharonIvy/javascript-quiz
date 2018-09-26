@@ -3,10 +3,14 @@
 }
 body {
   background-image: url(../images/laptop.jpg);
-  color: rgb(170, 169, 169);
+  color: rgb(192, 247, 228);
   background-repeat: no-repeat;
   background-size: cover;
 }
 #submit {
   color: black;
+}
+#score_reveal {
+  text-align: center;
+  font-size: 120px
 }
