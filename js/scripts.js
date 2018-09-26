@@ -69,7 +69,15 @@ if(correct < 1){
 } else {
   score = [0];
 }
+
+// USER INTERFACE:
 document.getElementById("score_reveal").style.visibility = "visible"
-document.getElementById("number_correct").innerHTML = "Your score is" + " " +  correct;
+document.getElementById("correctitems").innerHTML = "Your score is" + " " +  correct;
 document.getElementById("percentage").innerHTML = percentage[score];
 }
+$(document).ready(
+  function() {
+  $("#submit").click(function() {
+    $("form#quiz").hide();
+  });
+  });

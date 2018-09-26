@@ -2,10 +2,10 @@
   text-align: center;
 }
 body {
-  background-image: url(https://www.hdwallpapers.in/thumbs/2015/colors_of_apple_mac-t2.jpg);
-  color: rgb(205, 241, 241);
-  background-repeat: round;
-  background-position: cover;
+  background-image: url(../images/laptop.jpg);
+  color: rgb(170, 169, 169);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 #submit {
   color: black;
