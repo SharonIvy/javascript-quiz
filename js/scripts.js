@@ -70,6 +70,7 @@ if(correct < 1){
   score = [0];
 }
 
+
 // USER INTERFACE:
 document.getElementById("score_reveal").style.visibility = "visible"
 document.getElementById("correctitems").innerHTML = "Your score is" + " " +  correct;
