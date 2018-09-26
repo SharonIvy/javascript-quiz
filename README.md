@@ -10,14 +10,10 @@
   After filling up the form, and submitting the answers, the quiz hides and the score is displayed. Each question should has a scope point of 10 marks allocated to it.
 
 ## SPECIFICATIONS
-  I. Behaviour; When the user selects their answer of choice, the button of the selected choice is marked.
-
-     ![See question 1](../images/screenshot1.png)
+  I. When the user selects their answer of choice, the button of the selected choice is marked.
 
 
-  II. Behaviour; Only one answer should be selectable
-
-     ![See first 3 questions](../images/screenshot2.png)
+  II. Only one answer should be selectable.
 
 
   III. Behaviour; The program should give a percentage analysis of the user's score.
@@ -28,8 +24,6 @@
 
 
   IV. Behaviour; When the user submits his/her answers, the quiz hides and then display the score.
-      
-      ![See score](../images/screenshot3.png)
 
 ## PROJECT SETUP REQUIREMENTS:
   * Fork this repository.
