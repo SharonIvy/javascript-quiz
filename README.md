@@ -12,7 +12,7 @@
 ## SPECIFICATIONS
   I. When the user selects their answer of choice, the button of the selected choice is marked.
 
-     ![See question 1](https://raw.githubusercontent.com/sharonivy/javascript-quiz/master/images/screenshot1.png)
+     ![See question 1](https://github.com/sharonivy/javascript-quiz/master/images/screenshot1.png)
 
 
   II. Only one answer should be selectable.
