@@ -17,7 +17,7 @@
 
   II. Behaviour; Only one answer should be selectable
 
-     ![See question 1](../images/screenshot2.png)
+     ![See first 3 questions](../images/screenshot2.png)
 
 
   III. Behaviour; The program should give a percentage analysis of the user's score.
@@ -29,7 +29,7 @@
 
   IV. Behaviour; When the user submits his/her answers, the quiz hides and then display the score.
       
-      ![See question 1](../images/screenshot3.png)
+      ![See score](../images/screenshot3.png)
 
 ## PROJECT SETUP REQUIREMENTS:
   * Fork this repository.
