@@ -14,7 +14,7 @@ var question10 = document.quiz.question10.value;
 var correct = 0
 
 if (question1 == "false"){
-  correct++;
+  correct++;.0
 }
 if (question2 == "function myFunction()") {
   correct++;
@@ -48,35 +48,25 @@ var percentage = ["100%", "90%", "80%", "70%", "60%", "50%", "40%", "30%", "20%"
 var score;
 if(correct < 1){
   score = [0];
-}
-if (correct > 0 && correct<10){
+} else if (correct > 0 && correct<10){
   score = [1];
-}
-if (correct > 0 && correct < 9) {
+} else if (correct > 0 && correct < 9) {
   score = [2];
-}
-if (correct > 0 && correct < 8) {
+} else if (correct > 0 && correct < 8) {
   score = [3];
-}
-if (correct > 0 && correct < 7) {
+} else if (correct > 0 && correct < 7) {
   score = [4];
-}
-if (correct > 0 && correct < 6) {
+} else if (correct > 0 && correct < 6) {
   score = [5];
-}
-if (correct > 0 && correct < 5) {
+} else if (correct > 0 && correct < 5) {
   score = [6];
-}
-if (correct > 0 && correct < 4) {
+} else if (correct > 0 && correct < 4) {
   score = [7];
-}
-if (correct > 0 && correct < 3) {
+} else if (correct > 0 && correct < 3) {
   score = [8];
-}
-if (correct > 0 && correct < 2) {
+} else if (correct > 0 && correct < 2) {
   score = [9];
-}
-if (correct > 0 && correct < 1) {
+} else {
   score = [10];
 }
 document.getElementById("score_reveal").style.visibility = "visible"

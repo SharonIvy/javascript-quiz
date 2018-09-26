@@ -12,14 +12,13 @@
 <body>
     <form id="quiz" action="index.html" method="POST" name="quiz">
         <div class="container">
-            <h1 class="intro">Javascript Quiz:</h1>
+            <h1 class="intro">JAVASCRIPT QUIZ:</h1>
             <p class="intro">You are required to answer the following 10 questions by selecting one correct answer.</p>
             <p class="intro">The total score is 100 marks.</p>
             <br>
             <br>
             <div id="quiz">
-                <div class="kendi">
-                        <div class="col-md-6">
+            <div class="col-md-6">
         <!-- //Question 1: -->
         <p>1. The external JavaScript file must contain the script tag.(10 marks)</p>
         <input type="radio" name="question1" value="true">True<br>
@@ -49,46 +48,43 @@
         <input type="radio" name="question5" value="if i = 5">if i = 5<br>
         <input type="radio" name="question5" value="if i == 5 then">if i == 5 then<br>
         <input type="radio" name="question5" value="if i = 5 then">if i = 5 then<br>
-    </div> <!-- //this closes the first "column" div -->
-    </div>
-    <div class="col-md-6">
-    <div class="column">
+        </div> <!-- //this closes the first "column" div -->
+        <div class="col-md-6">
 <!-- //Question 6: -->
-    <p>6. How do you write an IF statement for executing some code if "i" is NOT equal to 5?(10 marks)</p>
-    <input type="radio" name="question6" value="if (i != 5)">if (i != 5)<br>
-    <input type="radio" name="question6" value="if i =! 5 then">if i =! 5 then<br>
-    <input type="radio" name="question6" value="if i === 5">if i=== 5<br>
-    <input type="radio" name="question6" value="if (i == 5)">if (i == 5)then<br>
-    <br>
+        <p>6. How do you write an IF statement for executing some code if "i" is NOT equal to 5?(10 marks)</p>
+        <input type="radio" name="question6" value="if (i != 5)">if (i != 5)<br>
+        <input type="radio" name="question6" value="if i =! 5 then">if i =! 5 then<br>
+        <input type="radio" name="question6" value="if i === 5">if i=== 5<br>
+        <input type="radio" name="question6" value="if (i == 5)">if (i == 5)then<br>
+        <br>
 <!-- //Question 7 -->
-    <p>7. A JavaScript file has an extension of;(10 marks)</p>
-    <input type="radio" name="question7" value=".java">.java<br>
-    <input type="radio" name="question7" value=".xml">.xml<br>
-    <input type="radio" name="question7" value=".js">.js<br>
-    <input type="radio" name="question7" value=".javascript">.javascript<br>
-    <br>
+        <p>7. A JavaScript file has an extension of;(10 marks)</p>
+        <input type="radio" name="question7" value=".java">.java<br>
+        <input type="radio" name="question7" value=".xml">.xml<br>
+        <input type="radio" name="question7" value=".js">.js<br>
+        <input type="radio" name="question7" value=".javascript">.javascript<br>
+        <br>
 <!-- //Question 8: -->
-    <p>8. How do we start Javascript?(10 marks)</p>
-    <input type="radio" name="question8" value="javascript tag">JavaScript tag<br>
-    <input type="radio" name="question8" value="script tag">Script tag<br>
-    <input type="radio" name="question8" value="java tag">Java tag<br>
-    <br>
+        <p>8. How do we start Javascript?(10 marks)</p>
+        <input type="radio" name="question8" value="javascript tag">JavaScript tag<br>
+        <input type="radio" name="question8" value="script tag">Script tag<br>
+        <input type="radio" name="question8" value="java tag">Java tag<br>
+        <br>
 <!-- //Question 9: -->
-    <p>9. Javascript is case sensitive.(10 marks)</p>
-    <input type="radio" name="question9" value="true">True<br>
-    <input type="radio" name="question9" value="false">False<br>
-    <br>
+        <p>9. Javascript is case sensitive.(10 marks)</p>
+        <input type="radio" name="question9" value="true">True<br>
+        <input type="radio" name="question9" value="false">False<br>
+        <br>
 <!-- //Question 10: -->
-    <p>10. When we use function and onClick event, we must use the script tag and function in the head tag only.(10 marks)</p>
-    <input type="radio" name="question10" value="true">True<br>
-    <input type="radio" name="question10" value="false">False<br>
-    </div> <!-- //this closes the second "column" div -->
-    </div> <!-- //this closes the "quiz" div -->
-    <!-- //quiz submission button: -->
-            </div>
-</div> <!-- //this closes the "container" div tag. -->
-</form>
-<input type="button" value="submit" onclick=check();>
+        <p>10. When we use function and onClick event, we must use the script tag and function in the head tag only.(10 marks)</p>
+        <input type="radio" name="question10" value="true">True<br>
+        <input type="radio" name="question10" value="false">False<br>
+        </div> <!-- //this closes the second "column" div -->
+        </div> <!-- //this closes the "quiz" div -->
+<!-- //quiz submission button: -->
+        </div> <!-- //this closes the "container" div tag. -->
+    </form>
+    <input type="button" value="Submit Answers!" onclick=check();>
 
 <!-- //Score reveal; -->
     <div id="score_reveal">
