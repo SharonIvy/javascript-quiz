@@ -23,7 +23,7 @@
        Output expected; 50%
 
 
-  IV. Behaviour; When the user submits his/her answers, the quiz hides and then display the score.
+  IV. When the user submits his/her answers, the quiz hides and then display the score.
 
 ## PROJECT SETUP REQUIREMENTS:
   * Fork this repository.
