@@ -48,23 +48,23 @@ var percentage = ["100%", "90%", "80%", "70%", "60%", "50%", "40%", "30%", "20%"
 var score;
 if(correct < 1){
   score = [10];
-} else if (correct > 0 && correct<10){
+} else if (correct == 1){
   score = [9];
-} else if (correct > 0 && correct < 9) {
+} else if (correct == 2) {
   score = [8];
-} else if (correct > 0 && correct < 8) {
+} else if (correct == 3) {
   score = [7];
-} else if (correct > 0 && correct < 7) {
+} else if (correct == 4) {
   score = [6];
-} else if (correct > 0 && correct < 6) {
+} else if (correct == 5) {
   score = [5];
-} else if (correct > 0 && correct < 5) {
+} else if (correct == 6) {
   score = [4];
-} else if (correct > 0 && correct < 4) {
+} else if (correct == 7) {
   score = [3];
-} else if (correct > 0 && correct < 3) {
+} else if (correct == 8) {
   score = [2];
-} else if (correct > 0 && correct < 2) {
+} else if (correct == 9) {
   score = [1];
 } else {
   score = [0];
