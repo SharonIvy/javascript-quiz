@@ -72,8 +72,8 @@ if(correct < 1){
 
 
 // USER INTERFACE:
-document.getElementById("score_reveal").style.visibility = "visible"
-document.getElementById("correctitems").innerHTML = "Your score is" + " " +  correct;
+document.getElementById("scoreReveal").style.visibility = "visible"
+document.getElementById("correctItems").innerHTML = "Your score is" + " " +  correct;
 document.getElementById("percentage").innerHTML = percentage[score];
 }
 $(document).ready(
